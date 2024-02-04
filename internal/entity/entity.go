@@ -1,6 +1,8 @@
 package entity
 
-import "errors"
+import (
+	"errors"
+)
 
 type OrderRequest struct {
 	OrderID  string  `json:"order_id"`
